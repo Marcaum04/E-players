@@ -76,7 +76,7 @@ nav a {
 }
 
 .banner3 .conteudo_banner {
-    margin-right: 134px;
+    margin-right: 55px;
 }
 
 .banner4 {
@@ -85,7 +85,7 @@ nav a {
 }
 
 .banner4 .conteudo_banner {
-    margin-right: 134px;
+    margin-right: 55px;
 }
 
 .conteudo_banner {
@@ -498,7 +498,196 @@ footer {
 
 /* Responsividade */
 
-@media(min-width:1000px) {
+@media(min-width:768px){
+    /* Grid */
+    .container{
+        width: 600px;
+    }
+
+    /* Header */
+    .container_header {
+        height: 50px;
+    }
+
+    .container_header img {
+        width: 200px;
+    }
+
+    nav {
+        width: 340px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 285px;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 32px;
+        height: 45px;
+    }
+
+    .conteudo_banner span {
+        font-size: 11px;
+    }
+
+    .conteudo_banner a {
+        font-size: 20px;
+        width: 140px;
+        height: 25px;
+    }
+
+    /* Apoiadores */
+    .apoiadores {
+        height: 50px;
+    }
+    
+    .container_apoiadores img{
+        height: 27px;
+    }
+
+    /* Participar das ligas */
+    .container_participar {
+        height: 500px;
+        background-size: 1000px;
+    }
+
+    .container_texto h2 {
+        font-size: 15px;
+    }
+
+    .container_texto p {
+        width: 310px;
+        font-size: 12px;
+    }
+
+    /* Ao vivo e em breve */
+    .section_ao_vivo {
+        height: 55px;
+    }
+
+    .um {
+        width: 69px;
+    }
+
+    .dois {
+        width: 75px;
+    }
+
+    .titulo {
+        font-size: 13px;
+    }
+    
+    .circulo {
+        height: 10px;
+        width: 10px;
+    }
+
+    .container_ao_vivo .jogos span {
+        font-size: 14px;
+    }
+
+    .container_ao_vivo hr {
+        height: 45px;
+    }
+
+    .jogos {
+        width: 130px;
+    }
+
+    .jogos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .jogos .loud {
+        width: 30px;
+        height: 25px;
+    }
+
+    /* Seção de notícias */
+    .section_noticias {
+        height: 1900px;
+    }
+
+    .noticias_proximos {
+        flex-direction: column;
+    }
+
+    .section_noticias h2 {
+        font-size: 55px;
+    }
+
+    .container_noticias {
+        height: 580px;
+    }
+
+    .noticias {
+        width: 180px;
+        height: 265px;
+    }
+
+    .noticias img {
+        width: 180px;
+        height: 110px;
+    }
+
+    .noticias h3 {
+        font-size: 20px;
+    }
+
+    .noticias p {
+        font-size: 12px;
+    }
+
+    .divisao {
+        width: 615px;
+    }
+
+    .container_proximos {
+        height: 1200px;
+    }
+
+    .fundo {
+        width: 500px;
+        height: 1045px;
+    }
+
+    .proximos_jogos img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .proximos_jogos img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .proximos_jogos{
+        width: 430px;
+    }
+
+    .jogos .pain, .jogos .intz {
+        width: 100px;
+        height: 70px;
+    }
+
+    .proximos_jogos .loud {
+        width: 100px;
+        height: 65px;
+    }
+
+    .container_proximos span {
+        font-size: 30px;
+    }
+
+}
+
+@media(min-width:900px) {
     /* Grid */
     .container {
         width: 800px;
@@ -527,18 +716,18 @@ footer {
     }
 
     .conteudo_banner h1 {
-        font-size: 37px;
-        height: 45px;
+        font-size: 28px;
+        height: 39px;
     }
 
     .conteudo_banner span {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .conteudo_banner a{
         font-size: 20px;
         width: 175px;
-        height: 30px;
+        height: 35px;
     }
 
     /* Apoiadores */
@@ -700,11 +889,37 @@ footer {
         font-size: 15px;
     }
 
+    .siga_nos .clan {
+        font-size: 13px;
+    }
+
     .siga_nos img {
         height: 35px;
         width: 35px;
     }
 
+}
+
+@media(min-width:1000px){
+     /* Banner */
+     .container_banner img {
+        height: 375px;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 37px;
+        height: 45px;
+    }
+
+    .conteudo_banner span {
+        font-size: 13px;
+    }
+
+    .conteudo_banner a{
+        font-size: 20px;
+        width: 175px;
+        height: 30px;
+    }
 }
 
 @media(min-width:1300px) {

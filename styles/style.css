@@ -496,7 +496,550 @@ footer {
     margin-top: 10px;
 }
 
-/* Responsividade para monitores maiores que 2060 */
+/* Responsividade */
+
+@media(min-width:1000px) {
+    /* Grid */
+    .container {
+        width: 800px;
+    }
+
+    /* Header */
+    .container_header {
+        height: 75px;
+    }
+
+    .container_header img {
+        width: 300px;
+    }
+
+    nav{
+        width: 390px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 375px;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 37px;
+        height: 45px;
+    }
+
+    .conteudo_banner span {
+        font-size: 13px;
+    }
+
+    .conteudo_banner a{
+        font-size: 20px;
+        width: 175px;
+        height: 30px;
+    }
+
+    /* Apoiadores */
+    .apoiadores {
+        height: 75px;
+    }
+
+    .container_apoiadores img{
+        height: 45%;
+    }
+
+    /* Como participar das ligas */
+    .container_participar {
+        height: 540px;
+    }
+
+    .container_texto h2 {
+        font-size: 27px;
+    }
+
+    .container_texto p {
+        width: 415px;
+        font-size: 15px;
+    }
+
+    /* Ao vivo e em breve */
+    .section_ao_vivo {
+        background-color: black;
+        height: 75px;
+    }
+
+    .titulo {
+        font-size: 15px;
+    }
+
+    .circulo {
+        height: 10px;
+        width: 10px;
+    }
+
+    .um {
+        width: 92px;
+    }
+
+    .dois {
+        width: 100px;
+    }
+
+    .container_ao_vivo .jogos span {
+        font-size: 15px;
+    }
+
+    .container_ao_vivo hr {
+        height: 60px;
+    }
+
+    .jogos {
+        width: 175px;
+    }
+
+    .jogos img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .jogos .loud {
+        width: 40px;
+        height: 30px;
+    }
+
+    /* Seção de notícias */
+    .section_noticias {
+        height: 725px;
+    }
+
+    .section_noticias h2 {
+        font-size: 30px;
+    }
+
+    .container_noticias {
+        height: 595px;
+    }
+
+    .divisao {
+        display: flex;
+        justify-content: space-evenly;
+        width: 590px;
+    }
+
+    .noticias {
+        width: 170px;
+        height: 260px;
+    }
+
+    .noticias img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .noticias h3 {
+        font-size: 19px;
+    }
+
+    .noticias p {
+        font-size: 12px;
+    }
+
+    /* Seção próximos jogos */
+    .container_proximos {
+        height: 660px;
+    }
+
+    .fundo {
+        width: 210px;
+        height: 690px;
+    }
+
+    .container_proximos span {
+        font-size: 15px;
+    }
+
+    .jogos .pain, .jogos .intz {
+        width: 45px;
+        height: 30px;
+    }
+
+    /* Footer */
+    .container_links {
+        width: 215px;
+    }
+
+    .container_links span {
+        font-size: 15px;
+    }
+
+    .container_links a {
+        font-size: 12px;
+    }
+
+    .logo_footer{
+        width: 200px;
+    }
+
+    .cadastrar input {
+        height: 35px;
+        width: 185px;
+    }
+
+    .cadastrar a {
+        height: 35px;
+        width: 98px;
+    }
+
+    .cadastrar a span {
+        font-size: 19px;
+    }
+
+    .siga_nos .segue {
+        font-size: 15px;
+    }
+
+    .siga_nos img {
+        height: 35px;
+        width: 35px;
+    }
+
+}
+
+@media(min-width:1300px) {
+
+    /* Grid */
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    /* Header */
+
+    .container_header{
+        height: 110px;
+    }
+
+    .container_header img {
+        width: 310px;
+    }
+
+    nav{
+        width: 500px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 400px;
+    }
+    .conteudo_banner h1 {
+        font-size: 48px;
+        height: 58px;
+    }
+    .conteudo_banner span {
+        font-size: 18px;
+    }
+    .conteudo_banner a {
+        font-size: 22px;
+        width: 180px;
+        height: 35px;
+    }
+
+    /* Apoiadores */
+    .apoiadores {
+        height: 110px;
+    }
+
+    .container_apoiadores img{
+        height: unset;
+    }
+
+    /* Como participar das ligas */
+    .container_participar {
+        height: 750px;
+    }
+
+    .container_texto h2 {
+        font-size: 50px;
+    }
+
+    .container_texto p {
+        width: 650px;
+        font-size: 24px;
+    }
+
+    /* Ao vivo e em breve */
+    .section_ao_vivo {
+        background-color: black;
+        height: 110px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+
+    .circulo {
+        height: 15px;
+        width: 15px;
+    }
+
+    .um {
+        width: 115px;
+    }
+
+    .dois {
+        width: 130px;
+    }
+
+    .container_ao_vivo .jogos span {
+        font-size: 20px;
+    }
+
+    .container_ao_vivo hr {
+        height: 90px;
+    }
+
+    .jogos {
+        width: 240px;
+    }
+
+    .jogos img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .jogos .loud {
+        width: 59px;
+        height: 45px;
+    }
+
+    /* Seção de notícias */
+    .section_noticias {
+        height: 900px;
+    }
+
+    .section_noticias h2 {
+        font-size: 50px;
+    }
+
+    .container_noticias {
+        height: 740px;
+    }
+
+    .divisao {
+        display: flex;
+        justify-content: space-evenly;
+        width: 790px;
+    }
+
+    .noticias {
+        width: 240px;
+        height: 345px;
+    }
+
+    .noticias img {
+        width: 240px;
+        height: 158px;
+    }
+
+    .noticias h3 {
+        font-size: 25px;
+    }
+
+    .noticias p {
+        font-size: unset;
+    }
+
+    /* Seção próximos jogos */
+    .container_proximos {
+        height: 825px;
+    }
+
+    .fundo {
+        width: 286px;
+        height: 690px;
+    }
+
+    .container_proximos span {
+        font-size: 20px;
+    }
+
+    .jogos .pain, .jogos .intz {
+        width: 59px;
+        height: 39px;
+    }
+
+    /* Footer */
+    .container_links {
+        width: 280px;
+    }
+
+    .container_links span {
+        font-size: 20px;
+    }
+
+    .container_links a {
+        font-size: 15px;
+    }
+
+    .logo_footer{
+        width: unset;
+    }
+
+    .cadastrar input {
+        height: 40px;
+        width: 220px;
+    }
+
+    .cadastrar a {
+        height: 40px;
+        width: 126px;
+    }
+
+    .cadastrar a span {
+        font-size: 25px;
+    }
+
+    .siga_nos .segue {
+        font-size: 20px;
+    }
+
+    .siga_nos img {
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media(min-width:1440px) {
+    /* Header */
+    .container_header img {
+        width: 406px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 500px;
+    }
+    .conteudo_banner h1 {
+        font-size: 75px;
+        height: 90px;
+    }
+    .conteudo_banner span {
+        font-size: 26px;
+    }
+    .conteudo_banner a {
+        font-size: 25px;
+        width: 200px;
+        height: 45px;
+    }
+}
+
+@media(min-width:1920px) {
+    /* Grid */
+    .container {
+        width: 1355px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    nav {
+        width: 500px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+
+    /* Como participar das ligas */
+    .container_participar {
+        height: 958px;
+        background-size: 2600px;
+    }
+
+    /* Seção notícias */
+    .section_noticias {
+        height: 1150px;
+    }
+    .section_noticias h2 {
+        font-size: 50px;
+    }
+    .container_noticias {
+        height: 855px;
+    }
+    .divisao {
+        width: 1000px;
+    }
+    .noticias {
+        width: 300px;
+        height: 400px;
+    }
+    .noticias img {
+        width: 300px;
+        height: 195px;
+    }
+    .noticias h3 {
+        font-size: 32px;
+    }
+    .noticias p {
+        font-size: 19px;
+    }
+
+    /* Seção próximos jogos */
+    .container_proximos {
+        height: 1070px;
+    }
+    .container_proximos span {
+        font-size: 26px;
+    }
+    .fundo {
+        width: 340px;
+        height: 935px;
+    }
+    .jogos .pain, .jogos .intz {
+        width: 75px;
+        height: 50px;
+    }
+
+    /* Footer */
+    .container_links {
+        width: 335px;
+    }
+    .container_links span {
+        font-size: 28px;
+    }
+    .container_links a {
+        font-size: 18px;
+    }
+    .siga_nos .clan {
+        font-size: 19px;
+    }
+    .cadastrar input {
+        height: 45px;
+        width: 255px;
+    }
+    .cadastrar a {
+        height: 45px;
+        width: 160px;
+    }
+    .cadastrar a span {
+        font-size: 30px;
+    }
+    .redes_sociais {
+        margin-top: 15px;
+    }
+    .siga_nos .segue {
+        font-size: 25px;
+    }
+    .siga_nos img {
+        height: 45px;
+        width: 45px;
+    }
+}
 
 @media(min-width:2100px) {
     /* Grid */
@@ -504,6 +1047,7 @@ footer {
         width: 2000px;
         margin: 0 auto;
     }
+
     /* Header */
     .container_header {
         height: 150px;
@@ -517,6 +1061,7 @@ footer {
     nav a {
         font-size: 25px;
     }
+
     /* Banners */
     .container_banner img {
         height: 650px;
@@ -534,10 +1079,12 @@ footer {
         height: 60px;
         margin-top: 15px;
     }
+
     /* Apoiadores */
     .apoiadores {
         height: 150px;
     }
+
     /* Como participar das ligas */
     .container_participar {
         height: 958px;
@@ -555,42 +1102,34 @@ footer {
     }
 
     /* Jogos ao vivo e em breve */
-    .section_ao_vivo{
+    .section_ao_vivo {
         height: 150px;
     }
-
     .titulo {
         font-weight: bold;
         font-size: 30px;
     }
-
     .circulo {
         height: 25px;
         width: 25px;
     }
-
     .um {
         width: 165px;
     }
-
     .dois {
         width: 180px;
     }
-
-    .jogos{
+    .jogos {
         width: 395px;
     }
-
     .jogos img {
         width: 75px;
         height: 75px;
     }
-
     .jogos .loud {
         width: 70px;
         height: 60px;
     }
-
     .container_ao_vivo .jogos span {
         font-size: 30px;
     }
@@ -599,33 +1138,26 @@ footer {
     .section_noticias {
         height: 1150px;
     }
-
     .section_noticias h2 {
         font-size: 65px;
     }
-
     .container_noticias {
         height: 950px;
     }
-
     .divisao {
         width: 1130px;
     }
-
     .noticias {
         width: 335px;
         height: 425px;
     }
-
     .noticias img {
         width: 335px;
         height: 200px;
     }
-
     .noticias h3 {
         font-size: 38px;
     }
-
     .noticias p {
         font-size: 21px;
     }
@@ -634,244 +1166,53 @@ footer {
     .container_proximos {
         height: 1070px;
     }
-
     .container_proximos span {
         font-size: 26px;
     }
-
     .fundo {
         width: 430px;
         height: 935px;
     }
-
     .jogos .pain, .jogos .intz {
         width: 75px;
         height: 50px;
     }
 
     /* Footer */
-
     .container_links {
         width: 370px;
     }
     .container_links span {
         font-size: 30px;
     }
-
     .container_links a {
         font-size: 20px;
     }
-
-    .logo_footer{
+    .logo_footer {
         width: 500px;
     }
-
     .siga_nos .clan {
         font-size: 22px;
     }
-
     .cadastrar input {
         height: 55px;
         width: 275px;
     }
-
     .cadastrar a {
         height: 55px;
         width: 200px;
     }
-
     .cadastrar a span {
         font-size: 38px;
     }
-
     .redes_sociais {
         margin-top: 15px;
     }
-
     .siga_nos .segue {
         font-size: 30px;
     }
-
     .siga_nos img {
         height: 50px;
         width: 50px;
-    }
-}
-
-@media(min-width:1920px){
-
-    /* Grid */
-    .container{
-        width: 1355px;
-        margin: 0 auto;
-    }
-
-    /* Header */
-    nav{
-        width: 500px;
-    }
-
-    nav a {
-        font-size: 20px;
-    }
-
-    /* Como participar das ligas */
-    .container_participar {
-        height: 958px;
-        background-size: 2600px;
-    }
-
-    /* Seção notícias */
-    .section_noticias {
-        height: 1150px;
-    }
-
-    .section_noticias h2 {
-        font-size: 50px;
-    }
-
-    .container_noticias {
-        height: 855px;
-    }
-
-    .divisao {
-        width: 1000px;
-    }
-
-    .noticias {
-        width: 300px;
-        height: 400px;
-    }
-
-    .noticias img {
-        width: 300px;
-        height: 195px;
-    }
-
-    .noticias h3 {
-        font-size: 32px;
-    }
-
-    .noticias p {
-        font-size: 19px;
-    }
-
-    /* Seção próximos jogos */
-    .container_proximos {
-        height: 1070px;
-    }
-
-    .container_proximos span {
-        font-size: 26px;
-    }
-
-    .fundo {
-        width: 340px;
-        height: 935px;
-    }
-
-    .jogos .pain, .jogos .intz {
-        width: 75px;
-        height: 50px;
-    }
-
-     /* Footer */
-
-     .container_links {
-        width: 335px;
-    }
-    .container_links span {
-        font-size: 28px;
-    }
-
-    .container_links a {
-        font-size: 18px;
-    }
-
-    .siga_nos .clan {
-        font-size: 19px;
-    }
-
-    .cadastrar input {
-        height: 45px;
-        width: 255px;
-    }
-
-    .cadastrar a {
-        height: 45px;
-        width: 160px;
-    }
-
-    .cadastrar a span {
-        font-size: 30px;
-    }
-
-    .redes_sociais {
-        margin-top: 15px;
-    }
-
-    .siga_nos .segue {
-        font-size: 25px;
-    }
-
-    .siga_nos img {
-        height: 45px;
-        width: 45px;
-    }
-}
-
-@media(min-width:1440px){
-
-    /* Header */
-    .container_header img {
-        width: 406px;
-    }
-
-    /* Banner */
-    .container_banner img {
-        height: 500px;
-    }
-    
-    .conteudo_banner h1 {
-        font-size: 75px;
-        height: 90px;
-    }
-    
-    .conteudo_banner span {
-        font-size: 26px;
-    }
-    
-    .conteudo_banner a {
-        font-size: 25px;
-        width: 200px;
-        height: 45px;
-    }
-
-}
-
-@media(min-width:1300px){
-
-    .container_header img{
-        width: 310px;
-    }
-
-    /* Banner */
-    .container_banner img {
-        height: 400px;
-    }
-
-    .conteudo_banner h1 {
-        font-size: 48px;
-        height: 58px;
-    }
-
-    .conteudo_banner span {
-        font-size: 18px;
-    }
-
-    .conteudo_banner a {
-        font-size: 22px;
-        width: 180px;
-        height: 35px;
     }
 }

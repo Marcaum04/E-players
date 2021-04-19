@@ -3,18 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 /* Grid */
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
 /* Header */
 
-header{
+header {
     background-color: #1E1C21;
 }
 
@@ -25,17 +25,17 @@ header{
     align-items: center;
 }
 
-.container_header img{
+.container_header img {
     width: 406px;
 }
 
-nav{
+nav {
     width: 465px;
     display: flex;
     justify-content: space-evenly;
 }
 
-nav a{
+nav a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-decoration: none;
@@ -43,7 +43,7 @@ nav a{
 
 /* Banners */
 
-.container_banner{
+.container_banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,57 +51,57 @@ nav a{
 }
 
 .banner1 {
-    background: linear-gradient(to right, rgba(0,107,183,1) 0%, rgba(0,107,183,1) 20%, rgba(0,0,0,1) 77%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(0, 107, 183, 1) 0%, rgba(0, 107, 183, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
 }
 
 .banner2 {
-    background: linear-gradient(to right, rgba(41,57,130,1) 0%, rgba(41,57,130,1) 20%, rgba(0,0,0,1) 77%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(41, 57, 130, 1) 0%, rgba(41, 57, 130, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
 }
 
 .banner3 {
-    background: linear-gradient(to right, rgba(251,203,59,1) 0%, rgba(251,203,59,1) 20%, rgba(0,0,0,1) 77%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(251, 203, 59, 1) 0%, rgba(251, 203, 59, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
 }
 
 .banner4 {
-    background: linear-gradient(to right, rgba(64,6,112,1) 0%, rgba(64,6,112,1) 25%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(64, 6, 112, 1) 0%, rgba(64, 6, 112, 1) 25%, rgba(0, 0, 0, 1) 74%, rgba(0, 0, 0, 1) 100%);
 }
 
-.container_banner img{
+.container_banner img {
     height: 500px;
 }
 
-.banner3{
+.banner3 {
     display: flex;
     justify-content: space-between;
 }
 
-.banner3 .conteudo_banner{
+.banner3 .conteudo_banner {
     margin-right: 134px;
 }
 
-.banner4{
+.banner4 {
     display: flex;
     justify-content: space-between;
 }
 
-.banner4 .conteudo_banner{
+.banner4 .conteudo_banner {
     margin-right: 134px;
 }
 
-.conteudo_banner{
+.conteudo_banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo_banner h1{
+.conteudo_banner h1 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 85px;
     height: 102px;
     color: white;
 }
 
-.conteudo_banner span{
+.conteudo_banner span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 32px;
     color: white;
@@ -113,31 +113,28 @@ nav a{
     font-size: 25px;
     text-transform: uppercase;
     color: white;
-    
     width: 200px;
     height: 45px;
     border-radius: 10px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    
 }
 
-.banner1 a{
+.banner1 a {
     background-color: #016AB7;
 }
 
-.banner2 a{
+.banner2 a {
     background-color: #2A3D8D;
 }
 
-.banner3 a{
+.banner3 a {
     background-color: #FBCB3B;
 }
 
-.banner4 a{
+.banner4 a {
     background-color: #400670;
 }
 
@@ -173,7 +170,7 @@ nav a{
     height: 110px;
 }
 
-.container_apoiadores{
+.container_apoiadores {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,190 +182,188 @@ nav a{
 .container_participar {
     background-image: url(../assets/bg-lol.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     height: 750px;
+    width: 100%;
 }
 
 .color {
-    background-color: rgba(0,136,236,40%);
+    background-color: rgba(0, 136, 236, 40%);
     height: 100%;
+    width: 100%;
 }
 
 .retangulo {
     clip-path: polygon(0 19%, 100% 0, 100% 82%, 0% 100%);
-    background-color: rgba(0,0,0,80%);
+    background-color: rgba(0, 0, 0, 80%);
     height: 100%;
 }
 
-.container_ligas{
+.container_ligas {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
 
-.container_ligas img{
+.container_ligas img {
     height: 100%;
 }
 
-.container_texto h2{
+.container_texto h2 {
     font-size: 50px;
 }
 
-.container_texto p{
+.container_texto p {
     width: 650px;
     font-size: 24px;
     text-align: justify;
 }
 
-.texto_ligas{
+.texto_ligas {
     font-family: 'Titillium Web', sans-serif;
     color: white;
 }
 
 /* Jogos ao vivo e em breve */
 
-.section_ao_vivo{
+.section_ao_vivo {
     background-color: black;
     height: 110px;
 }
 
-.container_ao_vivo{
+.container_ao_vivo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
 }
 
-.container_ao_vivo .jogos span{
+.container_ao_vivo .jogos span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    
     color: white;
     text-transform: uppercase;
 }
 
-.titulo{
+.titulo {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    
     color: white;
     text-transform: uppercase;
 }
 
-.bolinhas{
+.bolinhas {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.um{
-    width:115px;
+.um {
+    width: 115px;
 }
 
-.um div{
+.um div {
     background-color: red;
 }
 
-.dois{
+.dois {
     width: 130px;
 }
 
-.dois div{
+.dois div {
     background-color: #6B6B6B;
-
 }
 
-.circulo{
+.circulo {
     height: 15px;
     width: 15px;
     border-radius: 50%;
 }
 
-.container_ao_vivo hr{
+.container_ao_vivo hr {
     height: 90px;
 }
 
-.jogos{
+.jogos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 240px;
 }
 
-.jogos img{
+.jogos img {
     width: 50px;
     height: 50px;
 }
 
-.vorax{
+.vorax {
     background-color: white;
 }
 
-.jogos .loud{
+.jogos .loud {
     width: 59px;
     height: 45px;
 }
 
 /* Seção de notícias */
-.section_noticias{
+
+.section_noticias {
     background-color: #1E1C21;
     height: 900px;
     display: flex;
     align-items: center;
 }
 
-.section_noticias h2{
+.section_noticias h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 50px;
     color: white;
 }
 
-.noticias_proximos{
+.noticias_proximos {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.div_titulo{
+.div_titulo {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.container_noticias{
+.container_noticias {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
     height: 740px;
 }
 
-.divisao{
+.divisao {
     display: flex;
     justify-content: space-evenly;
     width: 790px;
 }
 
-.noticias{
+.noticias {
     width: 240px;
     height: 345px;
-    
-    background: linear-gradient(to bottom, rgba(45,45,45,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
     box-shadow: 13px 8px 7px black;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.noticias img{
+.noticias img {
     width: 240px;
     height: 158px;
 }
 
-.noticias h3{
+.noticias h3 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     color: white;
@@ -378,13 +373,12 @@ nav a{
     font-family: 'Titillium Web', sans-serif;
     color: white;
     text-align: justify;
-
     padding: 0 8px;
 }
 
 /* Seção próximos jogos */
 
-.container_proximos{
+.container_proximos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,62 +386,57 @@ nav a{
     height: 825px;
 }
 
-.container_proximos span{
+.container_proximos span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    
     color: white;
     text-transform: uppercase;
 }
 
-.fundo{
-    background: linear-gradient(to bottom, rgba(3,3,3,1) 0%, rgba(49,49,49,1) 26%, rgba(44,44,44,1) 77%, rgba(5,5,5,1) 100%);
-
+.fundo {
+    background: linear-gradient(to bottom, rgba(3, 3, 3, 1) 0%, rgba(49, 49, 49, 1) 26%, rgba(44, 44, 44, 1) 77%, rgba(5, 5, 5, 1) 100%);
     width: 286px;
     height: 720px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.jogos .pain,
-.jogos .intz {
+.jogos .pain, .jogos .intz {
     width: 59px;
     height: 39px;
 }
 
 /* Footer */
 
-footer{
-background-color: black;
-height: 350px;
-
-display: flex;
-align-items: center;
+footer {
+    background-color: black;
+    height: 350px;
+    display: flex;
+    align-items: center;
 }
 
-.container_footer{
+.container_footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container_links{
+.container_links {
     display: flex;
     justify-content: space-between;
     width: 280px;
 }
 
-.container_links span{
+.container_links span {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     color: white;
 }
 
-.container_links li{
+.container_links li {
     color: white;
 }
 
@@ -458,27 +447,27 @@ align-items: center;
     text-decoration: none;
 }
 
-.siga_nos .clan{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: white;
+.siga_nos .clan {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
 }
 
-.siga_nos .segue{
+.siga_nos .segue {
     font-family: 'Titillium Web', sans-serif;
-    color: white; 
+    color: white;
     font-size: 20px;
 }
 
-.siga_nos img{
+.siga_nos img {
     height: 40px;
     width: 40px;
 }
 
-.cadastrar{
+.cadastrar {
     display: flex;
 }
 
-.cadastrar input{
+.cadastrar input {
     height: 40px;
     width: 220px;
 }
@@ -487,25 +476,402 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     text-decoration: none;
     background-color: #016AB7;
-
     height: 40px;
     width: 126px;
 }
 
-.cadastrar a span{
+.cadastrar a span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     font-weight: bold;
-     
     color: white;
 }
 
-.redes_sociais{
+.redes_sociais {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
+}
+
+/* Responsividade para monitores maiores que 2060 */
+
+@media(min-width:2100px) {
+    /* Grid */
+    .container {
+        width: 2000px;
+        margin: 0 auto;
+    }
+    /* Header */
+    .container_header {
+        height: 150px;
+    }
+    .container_header img {
+        width: 500px;
+    }
+    nav {
+        width: 650px;
+    }
+    nav a {
+        font-size: 25px;
+    }
+    /* Banners */
+    .container_banner img {
+        height: 650px;
+    }
+    .conteudo_banner h1 {
+        font-size: 109px;
+        height: 134px;
+    }
+    .conteudo_banner span {
+        font-size: 41px;
+    }
+    .conteudo_banner a {
+        font-size: 38px;
+        width: 252px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    /* Apoiadores */
+    .apoiadores {
+        height: 150px;
+    }
+    /* Como participar das ligas */
+    .container_participar {
+        height: 958px;
+        background-size: 2600px;
+    }
+    .container_texto {
+        margin-top: 70px;
+    }
+    .container_texto h2 {
+        font-size: 70px;
+    }
+    .container_texto p {
+        width: 765px;
+        font-size: 30px;
+    }
+
+    /* Jogos ao vivo e em breve */
+    .section_ao_vivo{
+        height: 150px;
+    }
+
+    .titulo {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .circulo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .um {
+        width: 165px;
+    }
+
+    .dois {
+        width: 180px;
+    }
+
+    .jogos{
+        width: 395px;
+    }
+
+    .jogos img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .jogos .loud {
+        width: 70px;
+        height: 60px;
+    }
+
+    .container_ao_vivo .jogos span {
+        font-size: 30px;
+    }
+
+    /* Seção notícias */
+    .section_noticias {
+        height: 1150px;
+    }
+
+    .section_noticias h2 {
+        font-size: 65px;
+    }
+
+    .container_noticias {
+        height: 950px;
+    }
+
+    .divisao {
+        width: 1130px;
+    }
+
+    .noticias {
+        width: 335px;
+        height: 425px;
+    }
+
+    .noticias img {
+        width: 335px;
+        height: 200px;
+    }
+
+    .noticias h3 {
+        font-size: 38px;
+    }
+
+    .noticias p {
+        font-size: 21px;
+    }
+
+    /* Seção próximos jogos */
+    .container_proximos {
+        height: 1070px;
+    }
+
+    .container_proximos span {
+        font-size: 26px;
+    }
+
+    .fundo {
+        width: 430px;
+        height: 935px;
+    }
+
+    .jogos .pain, .jogos .intz {
+        width: 75px;
+        height: 50px;
+    }
+
+    /* Footer */
+
+    .container_links {
+        width: 370px;
+    }
+    .container_links span {
+        font-size: 30px;
+    }
+
+    .container_links a {
+        font-size: 20px;
+    }
+
+    .logo_footer{
+        width: 500px;
+    }
+
+    .siga_nos .clan {
+        font-size: 22px;
+    }
+
+    .cadastrar input {
+        height: 55px;
+        width: 275px;
+    }
+
+    .cadastrar a {
+        height: 55px;
+        width: 200px;
+    }
+
+    .cadastrar a span {
+        font-size: 38px;
+    }
+
+    .redes_sociais {
+        margin-top: 15px;
+    }
+
+    .siga_nos .segue {
+        font-size: 30px;
+    }
+
+    .siga_nos img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media(min-width:1920px){
+
+    /* Grid */
+    .container{
+        width: 1355px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    nav{
+        width: 500px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    /* Como participar das ligas */
+    .container_participar {
+        height: 958px;
+        background-size: 2600px;
+    }
+
+    /* Seção notícias */
+    .section_noticias {
+        height: 1150px;
+    }
+
+    .section_noticias h2 {
+        font-size: 50px;
+    }
+
+    .container_noticias {
+        height: 855px;
+    }
+
+    .divisao {
+        width: 1000px;
+    }
+
+    .noticias {
+        width: 300px;
+        height: 400px;
+    }
+
+    .noticias img {
+        width: 300px;
+        height: 195px;
+    }
+
+    .noticias h3 {
+        font-size: 32px;
+    }
+
+    .noticias p {
+        font-size: 19px;
+    }
+
+    /* Seção próximos jogos */
+    .container_proximos {
+        height: 1070px;
+    }
+
+    .container_proximos span {
+        font-size: 26px;
+    }
+
+    .fundo {
+        width: 340px;
+        height: 935px;
+    }
+
+    .jogos .pain, .jogos .intz {
+        width: 75px;
+        height: 50px;
+    }
+
+     /* Footer */
+
+     .container_links {
+        width: 335px;
+    }
+    .container_links span {
+        font-size: 28px;
+    }
+
+    .container_links a {
+        font-size: 18px;
+    }
+
+    .siga_nos .clan {
+        font-size: 19px;
+    }
+
+    .cadastrar input {
+        height: 45px;
+        width: 255px;
+    }
+
+    .cadastrar a {
+        height: 45px;
+        width: 160px;
+    }
+
+    .cadastrar a span {
+        font-size: 30px;
+    }
+
+    .redes_sociais {
+        margin-top: 15px;
+    }
+
+    .siga_nos .segue {
+        font-size: 25px;
+    }
+
+    .siga_nos img {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media(min-width:1440px){
+
+    /* Header */
+    .container_header img {
+        width: 406px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 500px;
+    }
+    
+    .conteudo_banner h1 {
+        font-size: 75px;
+        height: 90px;
+    }
+    
+    .conteudo_banner span {
+        font-size: 26px;
+    }
+    
+    .conteudo_banner a {
+        font-size: 25px;
+        width: 200px;
+        height: 45px;
+    }
+
+}
+
+@media(min-width:1300px){
+
+    .container_header img{
+        width: 310px;
+    }
+
+    /* Banner */
+    .container_banner img {
+        height: 400px;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 48px;
+        height: 58px;
+    }
+
+    .conteudo_banner span {
+        font-size: 18px;
+    }
+
+    .conteudo_banner a {
+        font-size: 22px;
+        width: 180px;
+        height: 35px;
+    }
 }

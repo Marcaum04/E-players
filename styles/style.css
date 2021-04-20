@@ -25,6 +25,16 @@ header {
     align-items: center;
 }
 
+.btn_menu{
+    text-decoration: none;
+}
+
+.btn_menu i {
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
 .container_header img {
     width: 406px;
 }
@@ -499,7 +509,151 @@ footer {
 /* Responsividade */
 
 @media(min-width:425px){
+    /* Grid */
+    .container {
+        width: 80vw;
+    }
+
+    /* Header */
+    .container_header{
+        height: 60px;
+    }
+
+    .container_header img {
+        width: 200px;
+    }
     
+    nav{
+        display: none;
+        
+        height: 300px;
+        width: 100%;
+        padding-left: 10vw;
+        
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: unset;
+        
+        position: absolute;
+        left: 0;
+        top: 60px;
+        
+        background-color: black;
+    }
+    
+    .btn_menu{
+        display: flex;
+    }
+
+    .btn_menu i{
+        display: inline-block;
+    }
+
+    /* Banner */
+    .container_banner {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 620px;
+    }
+
+    .container_banner img {
+        height: 370px;
+    }
+
+    .conteudo_banner{
+        margin-bottom: 65px;
+    }
+    
+    .banner3 .conteudo_banner {
+        margin-right: 0;
+    }
+    
+    .banner4 .conteudo_banner {
+        margin-right: 0;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 65px;
+        height: 85px;
+    }
+
+    .conteudo_banner span {
+        font-size: 24px;
+    }
+
+    .banner1 {
+        background: linear-gradient(to bottom, rgba(0, 107, 183, 1) 0%, rgba(0, 107, 183, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner2 {
+        background: linear-gradient(to bottom, rgba(41, 57, 130, 1) 0%, rgba(41, 57, 130, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner3 {
+        background: linear-gradient(to bottom, rgba(251, 203, 59, 1) 0%, rgba(251, 203, 59, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner4 {
+        background: linear-gradient(to bottom, rgba(64, 6, 112, 1) 0%, rgba(64, 6, 112, 1) 25%, rgba(20, 20, 20, 1) 74%, rgba(20, 20, 20, 1) 100%);
+    }
+
+    /* Apoiadores */
+    .apoiadores{
+        height: 400px;
+    }
+    
+    .container_apoiadores{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container_apoiadores img{
+       height: 35px;
+    }
+
+    /* Como participar */
+    .container_participar{
+        height: 1160px;
+    }
+    
+    .retangulo{
+        clip-path: unset;
+    }
+    
+    .container_ligas{
+        flex-direction: column;
+    }
+
+    .container_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .container_texto h2 {
+        font-size: 30px;
+    }
+
+    .container_texto p {
+        width: 340px;
+        font-size: 19px;
+    }
+
+    /* Jogos ao vivo e em breve */
+    .section_ao_vivo {
+        height: 460px;
+    }
+
+    .container_ao_vivo {
+        flex-direction: column;
+    }
+
+    .container_ao_vivo hr {
+        height: 1px;
+        width: 290px;
+    }
+
 }
 
 @media(min-width:768px){

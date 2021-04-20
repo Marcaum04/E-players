@@ -498,6 +498,10 @@ footer {
 
 /* Responsividade */
 
+@media(min-width:425px){
+    
+}
+
 @media(min-width:768px){
     /* Grid */
     .container{
@@ -652,6 +656,8 @@ footer {
         height: 1200px;
     }
 
+    /* Seção próximos jogos */
+
     .fundo {
         width: 500px;
         height: 1045px;
@@ -683,6 +689,53 @@ footer {
 
     .container_proximos span {
         font-size: 30px;
+    }
+
+    /* footer */
+    footer{
+        height: 175px;
+    }
+    .container_links span {
+        font-size: 13px;
+    }
+
+    .container_links a {
+        font-size: 10px;
+    }
+
+    .logo_footer{
+        width: 150px;
+    }
+
+    .siga_nos .clan {
+        font-size: 11px;
+    }
+
+    .cadastrar input {
+        height: 30px;
+        width: 150px;
+    }
+
+    .cadastrar a {
+        height: 30px;
+        width: 85px;
+    }
+
+    .cadastrar a span {
+        font-size: 18px;
+    }
+
+    .container_links {
+        width: 185px;
+    }
+
+    .siga_nos .segue {
+        font-size: 15px;
+    }
+
+    .siga_nos img {
+        height: 25px;
+        width: 25px;
     }
 
 }

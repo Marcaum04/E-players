@@ -654,6 +654,11 @@ footer {
         width: 290px;
     }
 
+    /* seção de notícias */
+    .divisao{
+        flex-direction: column;
+    }
+
 }
 
 @media(min-width:768px){
@@ -668,18 +673,42 @@ footer {
     }
 
     .container_header img {
-        width: 200px;
+        width: 240px;
     }
 
     nav {
         width: 340px;
+        display: flex;
+        position: unset;
+        flex-direction: unset;
+        
+        height: 100%;
+        width: 345px;
+        padding-left: 0;
+
+        justify-content: space-evenly;
+        align-items: center;
+        left: 0;
+        top: 0;
+        
+        background-color: uns;
     }
 
     nav a {
         font-size: 14px;
     }
 
+    .btn_menu{
+        display: none;
+    }
+    
     /* Banner */
+    .container_banner {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
     .container_banner img {
         height: 285px;
     }
@@ -699,9 +728,47 @@ footer {
         height: 25px;
     }
 
+    .banner3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner3 .conteudo_banner {
+        margin-right: 55px;
+    }
+    
+    .banner4 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner4 .conteudo_banner {
+        margin-right: 55px;
+    }
+
+    .banner1 {
+        background: linear-gradient(to right, rgba(0, 107, 183, 1) 0%, rgba(0, 107, 183, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    }
+    
+    .banner2 {
+        background: linear-gradient(to right, rgba(41, 57, 130, 1) 0%, rgba(41, 57, 130, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    }
+    
+    .banner3 {
+        background: linear-gradient(to right, rgba(251, 203, 59, 1) 0%, rgba(251, 203, 59, 1) 20%, rgba(0, 0, 0, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    }
+    
+    .banner4 {
+        background: linear-gradient(to right, rgba(64, 6, 112, 1) 0%, rgba(64, 6, 112, 1) 25%, rgba(0, 0, 0, 1) 74%, rgba(0, 0, 0, 1) 100%);
+    }
+
     /* Apoiadores */
     .apoiadores {
         height: 50px;
+    }
+
+    .container_apoiadores{
+        flex-direction: row;
     }
     
     .container_apoiadores img{
@@ -711,7 +778,17 @@ footer {
     /* Participar das ligas */
     .container_participar {
         height: 500px;
-        background-size: 1000px;
+        background-size: 1120px;
+    }
+    
+    .retangulo {
+        clip-path: polygon(0 19%, 100% 0, 100% 82%, 0% 100%);
+        background-color: rgba(0, 0, 0, 80%);
+        height: 100%;
+    }
+
+    .container_ligas{
+        flex-direction: row;
     }
 
     .container_texto h2 {
@@ -722,6 +799,7 @@ footer {
         width: 310px;
         font-size: 12px;
     }
+    
 
     /* Ao vivo e em breve */
     .section_ao_vivo {
@@ -745,12 +823,17 @@ footer {
         width: 10px;
     }
 
+    .container_ao_vivo{
+        flex-direction: row;
+    }
+
     .container_ao_vivo .jogos span {
         font-size: 14px;
     }
 
     .container_ao_vivo hr {
         height: 45px;
+        width: 1px;
     }
 
     .jogos {
@@ -804,6 +887,7 @@ footer {
 
     .divisao {
         width: 615px;
+        flex-direction: row;
     }
 
     .container_proximos {
@@ -1006,6 +1090,10 @@ footer {
     }
 
     /* Seção de notícias */
+    .noticias_proximos{
+        flex-direction: row;
+    }
+
     .section_noticias {
         height: 725px;
     }

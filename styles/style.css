@@ -553,11 +553,11 @@ footer {
     .container_banner {
         flex-direction: column;
         justify-content: space-between;
-        height: 620px;
+        height: 515px;
     }
 
     .container_banner img {
-        height: 370px;
+       height: 275px;
     }
 
     .conteudo_banner{
@@ -655,8 +655,36 @@ footer {
     }
 
     /* seção de notícias */
+    .noticias_proximos{
+        flex-direction: column;
+    }
+
+    .section_noticias{
+        height: 3150px;
+    }
+
+    .container_noticias{
+        height: 2190px;
+    }
+
     .divisao{
         flex-direction: column;
+        width: auto;
+        justify-content: space-between;
+        height: 1100px;
+    }
+
+    /* Footer */
+    footer{
+        height:600px;
+    }
+    .container_footer{
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .siga_nos .clan{
+        font-size: 15px;
     }
 
 }
@@ -691,7 +719,7 @@ footer {
         left: 0;
         top: 0;
         
-        background-color: uns;
+        background-color: unset;
     }
 
     nav a {
@@ -933,6 +961,12 @@ footer {
     footer{
         height: 175px;
     }
+
+    .container_footer{
+        flex-direction: row;
+        height: auto;
+    }
+
     .container_links span {
         font-size: 13px;
     }
@@ -1214,6 +1248,13 @@ footer {
         font-size: 20px;
         width: 175px;
         height: 30px;
+    }
+}
+
+@media(min-width:1210px){
+    /* Participar das ligas */
+    .container_participar{
+        background-size: 2000px;
     }
 }
 
@@ -1689,6 +1730,9 @@ footer {
     }
 
     /* Footer */
+    footer{
+        height: 265px;
+    }
     .container_links {
         width: 370px;
     }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-players</title>
+    <link rel="shortcut icon" href="assets/e.png" type="image/png">
+    <script src="https://kit.fontawesome.com/429ce419a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="container container_header">
+            <img src="assets/logo.svg" alt="logo E-players">
+            <nav id="links">
+                <a href="" onclick="BotaoDoMenu()">Início</a>
+                <a href="" onclick="BotaoDoMenu()">Horários</a>
+                <a href="" onclick="BotaoDoMenu()">Campeonatos</a>
+                <a href="" onclick="BotaoDoMenu()">Resultados</a>
+                <a href="" onclick="BotaoDoMenu()">Notícias</a>
+            </nav>
+            <a class="btn_menu" href="#" onclick="BotaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container_titulo">
+            <div class="color">
+                <h1>Cadastro de Times</h1>
+            </div>
+        </div>
+
+        <div class="fundo">
+            <div class="equipe">
+                <div class="container_cadastro">
+                    <div class="preencher">
+                        <span>Nome da equipe</span>
+                        <label for="name_1"></label><input class="input" type="name" name="tEquipe" size="40" placeholder="Nome"/>
+                    </div>
+                    <div class="preencher">
+                        <span>Emblema</span>
+                        <div>
+                            <label class="label" for="cFoto">Escolha uma imagem</label><input type="file" name="tFoto" id="cFoto" accept="image/*" style="opacity: 0;"/>
+                        </div>
+                    </div>
+                    <button><span>Cadastrar</span></button>
+                </div>
+
+            </div>
+
+            <div class="lista_times container">
+                <h2>Lista de Times</h2>
+                <table>
+                    <tr class="tr">
+                        <th>Nome da Equipe</th>
+                        <th>Emblema</th>
+                    </tr>
+                    <tr>
+                        <td>Vorax</td>
+                        <td><img src="assets/Voraxlogo.png" alt="Vorax logo"></td>
+                    </tr>
+                    <tr>
+                        <td>Flamengo</td>
+                        <td><img src="assets/fla-logo.png" alt="Flamengo logo"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container_footer container">
+            <div class="container_links">
+                <div>
+                    <span>Links úteis</span>
+                    <ul>
+                        <li> <a href="">Regras de utilização</a></li>
+                        <li> <a href="">Suporte</a></li>
+                        <li> <a href="">Central de ajuda</a></li>
+                        <li> <a href="">Contatar</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <span>Páginas</span>
+                    <ul>
+                        <li><a href="">Início</a></li>
+                        <li><a href="">Campeonatos</a></li>
+                        <li><a href="">Resultados</a></li>
+                        <li><a href="">Notícias</a></li>
+                        <li><a href="">Login/Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="logo_footer" src="assets/logo.svg" alt="logo E-players">
+            <div class="siga_nos">
+                <span class="clan">Faça parte do nosso clan, assine novo newsletter!</span>
+                <div class="cadastrar">
+                    <label for="e-mail_1"></label><input type="e-mail" name="e-mail" size="40" placeholder="E-mail"/>
+                    <a href=""><span>Cadastrar</span></a>
+                </div>
+                <div class="redes_sociais">
+                    <span class="segue">Siga nos em:</span>
+                    <a href=""><img src="assets/instagram.png" alt="Instagram"></a>
+                    <a href=""><img src="assets/facebook.png" alt="Facebook"></a>
+                    <a href=""><img src="assets/youtube.png" alt="Youtube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function BotaoDoMenu() {
+        var menu = document.getElementById("links");
+        if (menu.style.display === "flex") {
+            //Esconda o menu
+            menu.style.display = "none";
+        }else{
+            //Mostre o menu
+            menu.style.display = "flex";
+        }
+    }
+</script>
+</html>

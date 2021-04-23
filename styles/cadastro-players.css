@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 
-/* Título */
+/* Título com imagem de fundo */
+
 .container_titulo{
-    background-image: url(../assets/Stitch.jpg);
+    background-image: url(../assets/Players\ cadastro);
     background-position: center;
     height: 240px;
 }
 
 .color{
+    background-color: rgba(55, 15, 0, 77%);
     height: 100%;
-    width: 100%;
-    background-color: rgba(0, 31, 112, 70%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,101 +27,85 @@
     color: white;
 }
 
-/* Cadastrar time */
+/* Formulário */
 
 .fundo{
     background-color: #1E1C21;
-    height: 800px;
-
+    height: 1085px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.equipe{
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 23%, rgba(48,48,48,1) 68%, rgba(0,0,9,1) 100%);
-    height: 340px;
+form{
+    height: 630px;
     width: 770px;
-
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 23%, rgba(48,48,48,1) 68%, rgba(0,0,9,1) 100%);
+    
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 25px 90px;
 }
 
-.container_cadastro{
-    height: 222px;
-    width: 575px;
+.divisao{
+    width: 100%;
+    height: 235px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
-.container_cadastro button{
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.campos span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.campos input{
+    background-color: #ABABAB;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.campos select{
+    background-color: #ABABAB;
+    height: 30px;
+    width: 100%;
+}
+
+.enviar{
     width: 257px;
     height: 40px;
     background-color: #001F70;
     border-radius: 10px;
-    border: none;
-}
 
-.container_cadastro button span{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
     color: white;
     font-size: 20px;
+    font-weight: bold;
+
+    padding: 5px 65px;
 }
 
-.preencher{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.preencher span{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    font-size: 21px;
-}
-
-.label{
-        background-color: #ABABAB;
-        padding: 2px 10px;
-        font-size: 18px;
-        height: 30px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.label:hover {
-    background-color: #2D5BA3;
-    color: white;
-}
-
-.label:active {
-    background-color: #0D3F8F;
-    color: white;
-}
-
-.input{
-    height: 30px;
-    padding: 8px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    width: 100%;
-    color: #000;
-    background-color: #ABABAB;
-}
-
-/* Lista de times */
-.lista_times{
+/* Tabela */
+.lista_players{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lista_times h2{
+.lista_players h2{
     font-family: 'Titillium Web', sans-serif;
     color: white;
     font-size: 62px;
@@ -133,7 +117,7 @@ table{
     border-collapse: collapse;
 }
 
-.lista_times th{
+.lista_players th{
     background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
@@ -143,7 +127,7 @@ table{
     padding-left: 20px;
 }
 
-.lista_times td{
+.lista_players td{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     height: 58px;

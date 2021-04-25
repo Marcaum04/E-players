@@ -84,6 +84,48 @@ footer {
     margin-top: 10px;
 }
 
+@media(min-width:320px){
+     /* Footer */
+     footer{
+        height:420px;
+    }
+    .container_footer{
+        flex-direction: column;
+        height: 360px;
+    }
+
+    .container_links{
+        width: 255px;
+    }
+
+    .logo_footer{
+        height: 25px;
+    }
+
+    .siga_nos .clan{
+        font-size: 12px;
+    }
+
+    .cadastrar input {
+        height: 30px;
+        width: 175px;
+    }
+
+    .cadastrar a {
+        height: 30px;
+        width: 85px;
+    }
+
+    .cadastrar a span {
+        font-size: 16px;
+    }
+
+    .siga_nos img {
+        height: 35px;
+        width: 35px;
+    }
+}
+
 @media(min-width:425px){
     /* Footer */
     footer{
@@ -94,8 +136,35 @@ footer {
         height: 500px;
     }
 
+    .container_links {
+        width: 280px;
+    }
+
+    .logo_footer{
+        height: 35px;
+    }
+
     .siga_nos .clan{
         font-size: 15px;
+    }
+
+    .cadastrar input {
+        height: 40px;
+        width: 220px;
+    }
+
+    .cadastrar a {
+        height: 40px;
+        width: 126px;
+    }
+
+    .cadastrar a span {
+        font-size: 25px;
+    }
+
+    .siga_nos img {
+        height: 40px;
+        width: 40px;
     }
 
 }

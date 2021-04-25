@@ -36,6 +36,42 @@ nav a {
     text-decoration: none;
 }
 
+@media(min-width:320px){
+    .container_header{
+        height: 60px;
+    }
+    
+    .container_header img {
+        width: 200px;
+    }
+    
+    nav{
+        display: none;
+        
+        height: 300px;
+        width: 100%;
+        padding-left: 10vw;
+        
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: unset;
+        
+        position: absolute;
+        left: 0;
+        top: 60px;
+        
+        background-color: black;
+    }
+    
+    .btn_menu{
+        display: flex;
+    }
+    
+    .btn_menu i{
+        display: inline-block;
+    } 
+}
+
 @media(min-width:425px){
    /* Header */
    .container_header{

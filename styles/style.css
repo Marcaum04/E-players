@@ -376,6 +376,146 @@
 
 /* Responsividade */
 
+@media(min-width:320px){
+     /* Banner */
+     .container_banner {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 435px;
+    }
+
+    .container_banner img {
+       height: 215px;
+    }
+
+    .conteudo_banner{
+        margin-bottom: 40px;
+    }
+    
+    .banner3 .conteudo_banner {
+        margin-right: 0;
+    }
+    
+    .banner4 .conteudo_banner {
+        margin-right: 0;
+    }
+
+    .conteudo_banner h1 {
+        font-size: 50px;
+        height: 85px;
+    }
+
+    .conteudo_banner span {
+        font-size: 18px;
+    }
+
+    .banner1 {
+        background: linear-gradient(to bottom, rgba(0, 107, 183, 1) 0%, rgba(0, 107, 183, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner2 {
+        background: linear-gradient(to bottom, rgba(41, 57, 130, 1) 0%, rgba(41, 57, 130, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner3 {
+        background: linear-gradient(to bottom, rgba(251, 203, 59, 1) 0%, rgba(251, 203, 59, 1) 20%, rgba(20, 20, 20, 1) 77%, rgba(20, 20, 20, 1) 100%);
+    }
+    
+    .banner4 {
+        background: linear-gradient(to bottom, rgba(64, 6, 112, 1) 0%, rgba(64, 6, 112, 1) 25%, rgba(20, 20, 20, 1) 74%, rgba(20, 20, 20, 1) 100%);
+    }
+
+    /* Apoiadores */
+    .apoiadores{
+        height: 400px;
+    }
+    
+    .container_apoiadores{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container_apoiadores img{
+       height: 35px;
+    }
+
+    /* Como participar */
+    .container_participar{
+        height: 1160px;
+    }
+    
+    .retangulo{
+        clip-path: unset;
+    }
+    
+    .container_ligas{
+        flex-direction: column;
+    }
+
+    .container_texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .container_texto h2 {
+        font-size: 25px;
+    }
+
+    .container_texto p {
+        width: 283px;
+        font-size: 19px;
+    }
+
+    .container_ligas img{
+        height: 423px;
+    }
+
+    /* Jogos ao vivo e em breve */
+    .section_ao_vivo {
+        height: 460px;
+    }
+
+    .container_ao_vivo {
+        flex-direction: column;
+    }
+
+    .container_ao_vivo hr {
+        height: 1px;
+        width: 290px;
+    }
+
+    /* seção de notícias */
+    .noticias_proximos{
+        flex-direction: column;
+    }
+
+    .section_noticias{
+        height: 3150px;
+    }
+
+    .container_noticias{
+        height: 2190px;
+    }
+
+    .section_noticias h2{
+        font-size: 40px;
+    }
+
+    .divisao{
+        flex-direction: column;
+        width: auto;
+        justify-content: space-between;
+        height: 1100px;
+    }
+
+    .fundo{
+        width: 266px;
+    }
+
+}
+
 @media(min-width:425px){
 
     /* Banner */

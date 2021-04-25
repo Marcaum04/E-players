@@ -262,7 +262,7 @@ footer {
     }
 
     .siga_nos .clan {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .siga_nos img {
@@ -310,6 +310,10 @@ footer {
     .siga_nos img {
         height: 40px;
         width: 40px;
+    }
+
+    .siga_nos .clan {
+        font-size: 16px;
     }
 
 }

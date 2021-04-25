@@ -6,13 +6,14 @@
 }
 
 /* Título */
-.container_titulo{
+
+.container_titulo {
     background-image: url(../assets/Stitch.jpg);
     background-position: center;
     height: 240px;
 }
 
-.color{
+.color {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 31, 112, 70%);
@@ -21,7 +22,7 @@
     align-items: center;
 }
 
-.color h1{
+.color h1 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 65px;
     color: white;
@@ -29,49 +30,46 @@
 
 /* Cadastrar time */
 
-.fundo{
+.fundo {
     background-color: #1E1C21;
     height: 800px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.equipe{
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 23%, rgba(48,48,48,1) 68%, rgba(0,0,9,1) 100%);
+.equipe {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(48, 48, 48, 1) 23%, rgba(48, 48, 48, 1) 68%, rgba(0, 0, 9, 1) 100%);
     height: 340px;
     width: 770px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container_cadastro{
+.container_cadastro {
     height: 222px;
     width: 575px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.preencher{
+.preencher {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.preencher span{
+.preencher span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size: 21px;
 }
 
-.label{
+.label {
     background-color: #ABABAB;
     padding: 2px 10px;
     font-size: 18px;
@@ -89,7 +87,7 @@
     color: white;
 }
 
-.input{
+.input {
     height: 30px;
     padding: 8px;
     border: none;
@@ -99,7 +97,7 @@
     background-color: #ABABAB;
 }
 
-.container_cadastro button{
+.container_cadastro button {
     width: 257px;
     height: 40px;
     background-color: #001F70;
@@ -107,7 +105,7 @@
     border: none;
 }
 
-.container_cadastro button span{
+.container_cadastro button span {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
     color: white;
@@ -116,25 +114,26 @@
 }
 
 /* Lista de times */
-.lista_times{
+
+.lista_times {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lista_times h2{
+.lista_times h2 {
     font-family: 'Titillium Web', sans-serif;
     color: white;
     font-size: 62px;
 }
 
-table{
+table {
     border: 2px solid white;
     width: 770px;
     border-collapse: collapse;
 }
 
-.lista_times th{
+.lista_times th {
     background-color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
@@ -144,13 +143,216 @@ table{
     padding-left: 20px;
 }
 
-.lista_times td{
+.lista_times td {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     height: 58px;
     padding-left: 25px;
 }
 
-table img{
+table img {
     height: 38px;
+}
+
+@media(min-width:320px) {
+    /* Título */
+    .container_titulo {
+        background-size: 750px;
+        height: 150px;
+    }
+    .color h1 {
+        font-size: 35px;
+    }
+    /* Cadastrar time */
+    .fundo {
+        height: 610px;
+    }
+    .equipe {
+        height: 285px;
+        width: 275px;
+    }
+    .container_cadastro {
+        width: 230px;
+    }
+    .container_cadastro button {
+        width: 185px;
+    }
+    #cFoto{
+        width: 100px;
+    }
+    /* Lista de times */
+    .lista_times h2 {
+        font-size: 38px;
+    }
+    table {
+        width: 280px;
+    }
+}
+
+@media(min-width:425px){
+    /* Título */
+    .color h1 {
+        font-size: 40px;
+    }
+    /* Cadastrar time */
+    .fundo {
+        height: 610px;
+    }
+    .equipe {
+        width: 315px;
+    }
+    .container_cadastro {
+        width: 230px;
+    }
+    .container_cadastro button {
+        width: 225px;
+    }
+    /* Lista de times */
+    .lista_times h2 {
+        font-size: 45px;
+    }
+    table {
+        width: 315px;
+    }
+}
+
+@media(min-width:768px){
+    /* Título */
+    .color h1 {
+        font-size: 55px;
+    }
+    /* Cadastrar time */
+    .fundo {
+        height: 675px;
+    }
+    .equipe {
+        width: 500px;
+    }
+    .container_cadastro {
+        width: 405px;
+    }
+    /* Lista de times */
+    .lista_times h2 {
+        font-size: 45px;
+    }
+    table {
+        width: 500px;
+    }
+}
+
+@media(min-width:1024px){
+    /* Título */
+    .container_titulo {
+        background-size: 1100px;
+        height: 180px;
+    }
+    /* Cadastrar time */
+    .equipe {
+        width: 700px;
+    }
+    .container_cadastro {
+        width: 615px;
+    }
+    /* Tabela de times */
+    table {
+        width: 700px;
+    }
+}
+
+@media(min-width:1440px){
+    /* Título */
+    .container_titulo {
+        background-size: 1800px;
+        height: 200px;
+    }
+    .color h1 {
+        font-size: 75px;
+    }
+    /* Cadastrar time */
+    .fundo{
+        height: 800px;
+    }
+    .equipe {
+        height: 325px;
+        width: 780px;
+    }
+    .container_cadastro {
+        width: 615px;
+    }
+    /* Tabela de times */
+    table {
+        width: 700px;
+    }
+}
+
+@media(min-width:1920px){
+    /* Título */
+    .container_titulo {
+        background-size: 2400px;
+        height: 300px;
+    }
+    .color h1 {
+        font-size: 120px;
+    }
+    /* Cadastrar time */
+    .fundo{
+        height: 1100px;
+    }
+    .equipe {
+        height: 435px;
+        width: 1100px;
+    }
+    .container_cadastro {
+        height: 325px;
+        width: 770px;
+    }
+    .preencher span {
+        font-size: 35px;
+    }
+    .container_cadastro button {
+        width: 255px;
+        height: 50px;
+    }
+    .container_cadastro button span {
+        font-size: 25px;
+    }
+    /* Tabela de times */
+    table {
+        width: 1100px;
+        height: 300px;
+    }
+    .lista_times h2 {
+        font-size: 65px;
+    }
+    .lista_times th {
+        font-size: 25px;
+    }
+    .lista_times td {
+        font-size: 25px;
+    }
+    table img {
+        height: 70px;
+    }
+}
+
+@media(min-width:2160px){
+     /* Título */
+     .container_titulo {
+        background-size: 2600px;
+        height: 400px;
+    }
+    /* Cadastrar time */
+    .fundo{
+        height: 1300px;
+    }
+    .equipe {
+        height: 550px;
+        width: 1100px;
+    }
+    .input {
+        height: 40px;
+    }
+    .label {
+        font-size: 25px;
+    }
 }
